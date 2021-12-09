@@ -1116,7 +1116,7 @@ input[type="radio"] {
   padding: 1rem 1.5rem;
   width: 75%;
   border-radius: 0.5rem;
-  z-index: 999;
+  z-index: 9999!important;
 }
 .close-button {
   float: right;
