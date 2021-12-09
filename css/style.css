@@ -415,12 +415,19 @@ img{
   height: 100%;
 }
 
-.ornamen2,
+.ornamen2{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+}
+
 .ornamen3{
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 0;
+  top: -20px;
   width: 100vw;
 }
 
@@ -436,7 +443,7 @@ img{
 
 .ornamen3 img{
   width: 95vw;
-  height: 40vh;
+  height: 370px;
 }
 
 .right-flower{
