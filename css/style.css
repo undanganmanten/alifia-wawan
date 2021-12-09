@@ -1076,8 +1076,63 @@ input[type="radio"] {
   margin-bottom: 20px;
 }
 
+.trigger,.btn-rek{
+  text-align: center;
+  padding: 7px 13px;
+  background: #3e3e3e;
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-family: cursive;
+}
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem 1.5rem;
+  width: 75%;
+  border-radius: 0.5rem;
+  z-index: 999;
+}
+.close-button {
+  float: right;
+  width: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  background-color: rgb(44, 44, 44);
+}
+.close-button:hover {
+  background-color: darkgray;
+}
+.show-modal {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1.0);
+  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
 .bank{
-  width: 85%;
+  margin-top: 50px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1085,15 +1140,16 @@ input[type="radio"] {
 }
 
 .card-bank{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   background: linear-gradient(to bottom, #ffffff 0%, #dac09f 100%);
   padding: 1rem;
   border-radius: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
-
 .card-bank p{
   margin-bottom: 15px;
   color: black;
