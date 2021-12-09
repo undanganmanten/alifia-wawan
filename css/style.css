@@ -1178,13 +1178,6 @@ input[type="radio"] {
   margin: 15px auto;
 }
 
-.btn-rek{
-  background-color: rgb(218, 192, 164);
-  padding: .8rem 1rem;
-  border-radius: 10px;
-  color: #000;
-}
-
 .wish-img{
   display: flex;
   justify-content: center;
